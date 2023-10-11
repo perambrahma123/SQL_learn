@@ -1,0 +1,35 @@
+SQL (Structured Query Language) is a domain-specific language used for managing and manipulating relational databases. Here are some of the most commonly used keywords and commands in SQL:
+
+1. **SELECT:** Used to retrieve data from one or more tables.
+2. **FROM:** Specifies the table(s) from which to retrieve data in a `SELECT` statement.
+3. **WHERE:** Filters rows based on a specified condition in a `SELECT`, `UPDATE`, or `DELETE` statement.
+4. **INSERT INTO:** Adds new rows (records) to a table.
+5. **UPDATE:** Modifies existing data in a table.
+6. **DELETE FROM:** Removes rows from a table.
+7. **CREATE TABLE:** Defines a new table's structure.
+8. **ALTER TABLE:** Modifies an existing table's structure (e.g., adding columns).
+9. **DROP TABLE:** Deletes an entire table and its data.
+10. **PRIMARY KEY:** Specifies a unique identifier for each row in a table.
+11. **FOREIGN KEY:** Establishes a link between two tables based on a column's values.
+12. **INDEX:** Improves query performance by creating an index on one or more columns.
+13. **GROUP BY:** Groups rows with similar values in specified columns for aggregate functions.
+14. **HAVING:** Filters grouped rows in a `GROUP BY` query.
+15. **ORDER BY:** Sorts the result set based on one or more columns.
+16. **JOIN:** Combines data from multiple tables based on a related column.
+17. **INNER JOIN:** Returns only matching rows from both tables.
+18. **LEFT JOIN (or LEFT OUTER JOIN):** Returns all rows from the left table and matching rows from the right table.
+19. **RIGHT JOIN (or RIGHT OUTER JOIN):** Returns all rows from the right table and matching rows from the left table.
+20. **FULL JOIN (or FULL OUTER JOIN):** Returns all rows when there is a match in either table.
+21. **UNION:** Combines the result sets of two or more `SELECT` statements into a single result set.
+22. **UNION ALL:** Similar to `UNION` but retains duplicate rows.
+23. **DISTINCT:** Removes duplicate rows from the result set.
+24. **AS:** Renames columns or tables with aliases.
+25. **COUNT:** Calculates the number of rows or non-null values in a column.
+26. **SUM:** Calculates the sum of values in a numeric column.
+27. **AVG:** Calculates the average of values in a numeric column.
+28. **MIN:** Retrieves the minimum value from a column.
+29. **MAX:** Retrieves the maximum value from a column.
+
+These are some of the essential keywords and commands in SQL. SQL also supports various other functions, operators, and clauses to
+perform a wide range of operations on databases. The specific syntax and usage may vary slightly depending on the database management system (DBMS) 
+you are using, such as MySQL, PostgreSQL, SQL Server, Oracle, etc.
